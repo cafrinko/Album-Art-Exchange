@@ -2,6 +2,12 @@ body {
   background: black;
   color: white; }
 
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 800px; }
+
 a {
   text-decoration: none;
   color: white; }
@@ -11,12 +17,6 @@ h2 {
 
 .text {
   color: blue; }
-
-.wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 800px; }
 
 .container {
   display: flex;

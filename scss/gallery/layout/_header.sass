@@ -1,24 +1,27 @@
-span
-  color: red
-
 .header
-  width: 100%
   display: flex
-  justify-content: center
+  justify-content: space-between
+  width: 100%
+  max-width: 1000px
+  height: 150px
+  align-items: center
   flex-wrap: wrap
-.desc
-  display: flex
-  justify-content: center
-  width: 90%
-.ad
-  display: flex
-  width: 100%
-  height: auto
-  justify-content: center
-  margin-bottom: 3%
+  margin-top: 0
+  .leftnav
+    display: flex
+    height: 50%
+    img
+      max-width: 100%
+      height: auto
+      margin-right: 10px
+  .links
+    display: flex
+    list-style: none
+    padding: 0
+    margin: 0
+li
+  padding-left: 5px
 
 .InputAddOn
   display: flex
-
-.InputAddOn-field
-  flex: 1
+  width: 100%
