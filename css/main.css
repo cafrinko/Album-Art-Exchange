@@ -1,4 +1,64 @@
+body {
+  background: black;
+  color: white; }
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
 .container {
-  flex-direction: row; }
+  display: flex;
+  flex-direction: row;
+  width: 480px;
+  flex-wrap: wrap; }
+  .container img {
+    margin: 1%; }
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  justify-content: center; }
+  .flex-container .sidebar {
+    margin-top: 5%; }
+  .flex-container .left {
+    margin-right: 5px; }
+  .flex-container .right {
+    margin-left: 5px; }
+
+.golden-hen {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  align-items: center;
+  align-self: center; }
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin: 5%; }
+  .links img {
+    margin: 1%; }
+
+span {
+  color: red; }
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.desc {
+  display: flex;
+  justify-content: center;
+  width: 90%; }
+
+.ad {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  margin-bottom: 3%; }
 
 /*# sourceMappingURL=main.css.map */
