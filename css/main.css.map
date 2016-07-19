@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,cAAc,EAAE,GAAG",
+"sources": ["../scss/layout/_grid.sass"],
+"names": [],
+"file": "main.css"
+}
