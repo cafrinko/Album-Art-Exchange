@@ -2,10 +2,18 @@ body {
   background: black;
   color: white; }
 
+a {
+  text-decoration: none;
+  color: white; }
+
+h2 {
+  font-weight: bold; }
+
 .wrap {
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  min-width: 800px; }
 
 .container {
   display: flex;
@@ -20,11 +28,12 @@ body {
   width: 100%;
   justify-content: center; }
   .flex-container .sidebar {
-    margin-top: 5%; }
+    text-align: center;
+    margin-top: 20px; }
   .flex-container .left {
-    margin-right: 5px; }
+    margin-right: 10px; }
   .flex-container .right {
-    margin-left: 5px; }
+    margin-left: 10px; }
 
 .golden-hen {
   display: flex;
@@ -36,9 +45,9 @@ body {
 .links {
   display: flex;
   justify-content: center;
-  margin: 5%; }
+  margin: 15px; }
   .links img {
-    margin: 1%; }
+    margin: 5px; }
 
 span {
   color: red; }
@@ -61,4 +70,10 @@ span {
   justify-content: center;
   margin-bottom: 3%; }
 
-/*# sourceMappingURL=main.css.map */
+.InputAddOn {
+  display: flex; }
+
+.InputAddOn-field {
+  flex: 1; }
+
+/*# sourceMappingURL=gallery.css.map */
